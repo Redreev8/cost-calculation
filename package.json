@@ -1,0 +1,32 @@
+{
+    "name": "cost-calculation",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "g": "cd ./genarator-file && npm run dev"
+    },
+    "dependencies": {
+        "classnames": "^2.5.1",
+        "next": "14.2.14",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.14",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3",
+        "sass": "^1.79.4",
+        "typescript": "^5"
+    }
+}
