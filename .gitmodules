@@ -1,0 +1,3 @@
+[submodule "generator-file"]
+	path = generator-file
+	url = https://github.com/Redreev8/generator-file.git
