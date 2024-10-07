@@ -1,0 +1,18 @@
+@import "@/style/root";
+@import "@/style/mixin/all";
+
+.input {
+    @include alumni-sans;
+    @include text;
+    color: $white;
+    background-color: $black;
+    padding: $g-sm $g;
+    border: $border-line;
+    border-radius: $g-sm;
+
+    &--white {
+        color: $black;
+        background-color: $white;
+        border-color: $black;
+    }
+}
