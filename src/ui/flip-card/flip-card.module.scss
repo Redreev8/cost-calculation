@@ -1,0 +1,43 @@
+@import '@/style/root';
+@import '@/style/mixin/all';
+
+$box-width: 340px;
+$box-height: 480px;
+$box-depth: 100px;
+
+.cube_wrapper {
+    width: $box-depth;
+    height: $box-height;
+    perspective: 400px;
+    transition: width .3s;
+    &.active:hover {
+        width: $box-width;
+    }
+}
+ 
+.cube {
+    width: $box-width;
+    height: $box-height;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-$box-width / 2);
+    transition: transform .6s;
+    .cube_wrapper.active &:hover {
+        transform: rotateY(-90deg) translateX(70px) translateZ(0);
+    }
+}
+ 
+.cube__side {
+    position: absolute;
+    height: $box-height;
+}
+ 
+.cube__side--front {
+    width: $box-depth;
+    transform: rotateY( 0deg) translateZ($box-width / 2);
+}
+ 
+.cube__side--right {
+    width: $box-width;
+    transform: rotateY(90deg) translateZ(-70px);
+}

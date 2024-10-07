@@ -1,0 +1,16 @@
+@import '@/style/root';
+@import '@/style/mixin/all';
+
+.card {
+    background-color: $black;
+    padding: $g $g-bg;
+    border: $border-line;
+    border-radius: $g;
+    box-sizing: border-box;
+    
+    &--white {
+        color: $black;
+        background-color: $white;
+        border-color: $black;   
+    }
+}
