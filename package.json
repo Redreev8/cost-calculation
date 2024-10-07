@@ -7,7 +7,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "g": "cd ./genarator-file && npm run dev"
+        "pret": "npx prettier . --write",
+        "g": "cd ./generator-file && npm run dev"
     },
     "dependencies": {
         "classnames": "^2.5.1",

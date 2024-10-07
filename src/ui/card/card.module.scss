@@ -1,5 +1,5 @@
-@import '@/style/root';
-@import '@/style/mixin/all';
+@import "@/style/root";
+@import "@/style/mixin/all";
 
 .card {
     background-color: $black;
@@ -7,10 +7,10 @@
     border: $border-line;
     border-radius: $g;
     box-sizing: border-box;
-    
+
     &--white {
         color: $black;
         background-color: $white;
-        border-color: $black;   
+        border-color: $black;
     }
 }
